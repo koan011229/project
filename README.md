@@ -30,7 +30,10 @@
   </p>
   
   
-  ## fourier 파일
+  ## 실행
+
+  requirements.txt로 필요한 패키지 설치 후 main.py로 file안에 있는 실험값들을 이론값에 fitting함.
+  levenberg-marquardt 알고리즘을 이용하여 구하였음.
   
   
   <h1 align="center">
