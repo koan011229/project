@@ -27,26 +27,23 @@
           <img src="./image/02.png">
       </a>
       <br>
+      <br>
+      <a>Fitting을 위해 맞춰야할 파라미터는, 직렬 저항, 병렬 저항, 커패시터스, 인덕턴스가 있고, 이를 비선형 최적화를 통해 맞추고자 함.</a>
   </p>
   
   
   ## 실행
 
-  requirements.txt로 필요한 패키지 설치 후 main.py로 file안에 있는 실험값들을 이론값에 fitting함.
+  requirements.txt로 필요한 패키지 설치 후, main.py로 file안에 있는 실험값들을 이론값에 fitting하기 위해 파라미터를 유추함.
+  <br>
   levenberg-marquardt 알고리즘을 이용하여 구하였음.
 
   ```bash
   # 패키지 설치
-  $ git clone https://github.com/amitmerchant1990/electron-markdownify
+  $ pip install -r requirements.txt
   
-  # Go into the repository
-  $ cd electron-markdownify
-  
-  # Install dependencies
-  $ npm install
-  
-  # Run the app
-  $ npm start
+  # 파라미터 예측
+  $ python main.py
   ```
   
   
