@@ -34,6 +34,20 @@
 
   requirements.txt로 필요한 패키지 설치 후 main.py로 file안에 있는 실험값들을 이론값에 fitting함.
   levenberg-marquardt 알고리즘을 이용하여 구하였음.
+
+  ```bash
+  # 패키지 설치
+  $ git clone https://github.com/amitmerchant1990/electron-markdownify
+  
+  # Go into the repository
+  $ cd electron-markdownify
+  
+  # Install dependencies
+  $ npm install
+  
+  # Run the app
+  $ npm start
+  ```
   
   
   <h1 align="center">
