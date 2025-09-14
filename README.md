@@ -11,7 +11,9 @@
 <br>
 
   ## 목표
+  <p align="center">
   <img src="./image/01.png">
+  </p>
   
   
   ## fourier 파일
